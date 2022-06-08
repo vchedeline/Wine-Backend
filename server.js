@@ -48,6 +48,14 @@ app.get("/vineyard", async (req, res) => {
   }
 });
 
+app.get("/wine", async (req, res) => {
+  try {
+    res.json(await Wine.find({}));
+  } catch (error) {
+    res.status(400).json(error);
+  }
+});
+
 //  CREATE ROUTE
 app.post("/wine", async (req, res) => {
   try {
