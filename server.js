@@ -7,6 +7,7 @@ const cors = require("cors")
 const morgan = require ("morgan");
 const mongoose = require ("mongoose");
 const Wine = require("./models/wine");
+const wineSeedData =("./models/wineSeedData")
 const { PORT = 3001, DATABASE_URL } = process.env
 
 

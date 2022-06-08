@@ -13,7 +13,7 @@ module.exports = [
         year:"2018",
         price: 198,
         details:"Offers a deep well of dark currant, blackberry paste and plum preserves fruit that needs time to unwind fully, as it’s shrouded in warm earth, tobacco, singed cedar, sweet bay leaf and savory notes. A ramrod of graphite adds to the strident, structured feel. Cabernet Sauvignon, Merlot, Cabernet Franc and Petit Verdot. Best from 2030 through 2050. 13,000 cases made. —JM",
-        image:String,
+        image:"https://cdn11.bigcommerce.com/s-i6031ho5me/images/stencil/1000x1000/products/5272/5885/pichon-lalande_5__11479.1631639746.jpg?c=2",
       }),
       ({
         name: "Merum Priorati",
