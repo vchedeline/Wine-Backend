@@ -30,6 +30,9 @@ mongoose.connection
 
 
 //Index Route
+app.get("/",(res, req)=>{
+    res.redirect("/vinyard")
+})
 
 app.get("/vinyard", async (req, res) => {
     try {
